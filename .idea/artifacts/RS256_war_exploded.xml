@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RS256:war exploded">
+    <output-path>$PROJECT_DIR$/RS256/target/RS256</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RS256" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.bitbucket.b_c:jose4j:0.6.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.6" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk16:1.45" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/RS256/target/RS256/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="RS256/web/Web" />
+    </root>
+  </artifact>
+</component>
