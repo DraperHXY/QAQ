@@ -7,10 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DES" />
+        <module name="JWT" />
         <module name="RS256" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="9">
+    <bytecodeTargetLevel target="8">
+      <module name="DES" target="1.5" />
+      <module name="JWT" target="1.5" />
       <module name="QAQ" target="1.5" />
       <module name="RS256" target="1.8" />
     </bytecodeTargetLevel>

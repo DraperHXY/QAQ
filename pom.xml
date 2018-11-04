@@ -11,6 +11,7 @@
     <modules>
         <module>RS256</module>
         <module>JWT</module>
+        <module>DES</module>
     </modules>
 
 
