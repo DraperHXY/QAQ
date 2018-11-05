@@ -46,20 +46,11 @@ public class EcbAES extends AES {
     }
 
     public byte[] encrypt(byte[] plainText) {
-        try {
-            return super.encrypt(plainText);
-        } catch (InvalidCipherTextException e) {
-            e.printStackTrace();
-            return null;
-        }
+        return super.encrypt(plainText);
     }
 
+
     public byte[] decrypt(byte[] cipherText) {
-        try {
-            return super.decrypt(cipherText);
-        } catch (InvalidCipherTextException e) {
-            e.printStackTrace();
-            return null;
-        }
+        return super.decrypt(cipherText);
     }
 }
