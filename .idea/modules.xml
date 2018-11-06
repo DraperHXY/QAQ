@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/JWT/JWT.iml" filepath="$PROJECT_DIR$/JWT/JWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Jdk9/Jdk9.iml" filepath="$PROJECT_DIR$/Jdk9/Jdk9.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Lambda/Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MD5/MD5.iml" filepath="$PROJECT_DIR$/MD5/MD5.iml" />
       <module fileurl="file://$PROJECT_DIR$/QAQ.iml" filepath="$PROJECT_DIR$/QAQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/RS256/RS256.iml" filepath="$PROJECT_DIR$/RS256/RS256.iml" />
     </modules>

@@ -13,6 +13,7 @@
         <module>JWT</module>
         <module>DES</module>
         <module>AES</module>
+        <module>MD5</module>
     </modules>
 
 
